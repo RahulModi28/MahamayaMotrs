@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location for search engines
-Sitemap: https://mahamaya-motors.vercel.app/sitemap.xml
+Sitemap: https://mahamayamotors.co.in/sitemap.xml
