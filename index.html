@@ -228,55 +228,47 @@
 
 <body class="bg-background text-on-surface font-body-md">
   <!-- Section 1: Navbar -->
-  <header
-    class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-md border-b border-outline-variant shadow-sm transition-all duration-300">
+  <header id="main-header" class="fixed top-0 w-full z-50 bg-transparent text-white transition-all duration-300">
     <nav
       class="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto h-20">
       <div class="w-[45%] max-w-[180px] flex-shrink-0 flex items-center">
         <a href="#" class="block w-full">
-          <img alt="Mahamaya Motors - Tata Motors Champa Logo"
+          <img alt="Mahamaya Motors Logo"
             class="w-full h-auto max-h-14 object-contain object-left scale-[1.5] md:scale-[1.5] origin-left"
             src="logo.png" />
         </a>
       </div>
       <div class="hidden md:flex gap-gutter items-center">
-        <a class="text-on-surface-variant font-button-text text-button-text uppercase hover:text-primary transition-colors"
+        <a class="font-button-text text-button-text uppercase hover:text-primary transition-colors"
           href="#services">Services</a>
-        <a class="text-on-surface-variant font-button-text text-button-text uppercase hover:text-primary transition-colors"
-          href="#why-us">Why Us</a>
-        <a class="text-on-surface-variant font-button-text text-button-text uppercase hover:text-primary transition-colors"
+        <a class="font-button-text text-button-text uppercase hover:text-primary transition-colors" href="#why-us">Why
+          Us</a>
+        <a class="font-button-text text-button-text uppercase hover:text-primary transition-colors"
           href="#contact">Contact</a>
       </div>
       <div class="w-[45%] max-w-[150px] flex-shrink-0 flex items-center justify-end">
         <a href="https://www.tatamotors.com" target="_blank" rel="noopener noreferrer" class="block w-full text-right">
-          <img alt="Tata Motors Authorised Service Station Champa"
-            class="inline-block w-full h-auto max-h-12 object-contain object-right" src="tata-motors.svg" />
+          <img alt="Tata Motors Authorised"
+            class="inline-block w-full h-auto max-h-12 object-contain object-right bg-white rounded-md p-1"
+            src="tata-motors.svg" />
         </a>
       </div>
     </nav>
   </header>
-  <main class="mt-20">
+  <main>
     <!-- Section 2: Hero -->
     <section
-      class="relative bg-on-secondary-fixed text-white py-16 md:py-24 px-margin-mobile md:px-margin-desktop overflow-hidden">
-      <div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
-        <div class="z-10" data-aos="fade-right">
-          <div
-            class="inline-block bg-accent-orange text-white px-4 py-2 font-label-bold text-label-bold uppercase mb-6 rounded-sm shadow-md">
-            District's First Computerised 3D Wheel Alignment
-          </div>
+      class="relative text-white min-h-screen flex items-center justify-center pt-20 pb-16 md:pb-24 px-margin-mobile md:px-margin-desktop overflow-hidden bg-cover bg-center"
+      style="background-image: url('cv-banner.webp');">
+      <div class="absolute inset-0 bg-black/70 z-0"></div>
+      <div class="relative z-10 max-w-container-max mx-auto flex flex-col items-start text-left w-full">
+        <div data-aos="fade-up" class="max-w-4xl">
           <h1
             class="font-display-lg text-display-lg mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white via-secondary-fixed to-primary-fixed-dim drop-shadow-sm">
-            Tata Motors Champa — #1 Authorised Service Station</h1>
-          <p class="font-body-lg text-body-lg text-secondary-fixed mb-8 max-w-xl">Expert Commercial Vehicle Care — On
+            MAHAMAYA MOTORS <br /> TATA MOTORS AUTHORISED <br /> COMMERCIAL VEHICLE <br /> SERVICE STATION</h1>
+          <p class="font-body-lg text-body-lg text-secondary-fixed mb-8">Expert Commercial Vehicle Care — On
             NH-200, Available 24×7. We keep your fleet moving with precision diagnostic tools and Tata genuine
             expertise.</p>
-
-        </div>
-        <div class="relative h-64 md:h-full min-h-[400px]" data-aos="fade-left">
-          <div class="absolute inset-0 bg-gradient-to-tr from-on-secondary-fixed to-transparent z-10"></div>
-          <img class="w-full h-full object-cover rounded-xl"
-            alt="Mahamaya Motors - Tata Motors Service Center in Champa" src="unnamed.webp" />
         </div>
       </div>
     </section>
@@ -307,7 +299,7 @@
         <div class="mb-12" data-aos="fade-up">
           <h2
             class="font-headline-lg text-headline-lg uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-surface-tint inline-block">
-            Our Tata Motors Services</h2>
+            Our Services</h2>
           <p class="font-body-lg text-body-lg text-on-surface-variant">Har Zaroorat Ka Ek Hal — Complete Commercial
             Vehicle Care</p>
         </div>
@@ -419,7 +411,7 @@
       <div class="max-w-container-max mx-auto text-center" data-aos="fade-up">
         <h2
           class="font-headline-lg text-headline-lg mb-8 uppercase bg-clip-text text-transparent bg-gradient-to-r from-white via-surface-variant to-secondary-fixed">
-          Only Tata Genuine Spares</h2>
+          Only Tata Genuine Spares — No Local. No Compromise.</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-12" data-aos="fade-up" data-aos-delay="200">
           <div class="p-8 border border-white/20 flex flex-col items-center gap-4">
             <span class="material-symbols-outlined text-5xl" data-icon="new_releases">new_releases</span>
@@ -445,7 +437,7 @@
       <div class="max-w-container-max mx-auto" data-aos="fade-up">
         <h2
           class="font-headline-lg text-headline-lg mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-surface-tint">
-          Kyun Chunein Mahamaya Motors Champa?</h2>
+          Kyun Chunein Mahamaya Motors?</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="flex gap-unit items-start p-4">
             <span class="material-symbols-outlined text-primary text-3xl"
@@ -586,6 +578,17 @@
       easing: 'ease-out-cubic',
       once: true,
       offset: 50
+    });
+
+    const header = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.remove('bg-transparent', 'text-white');
+        header.classList.add('bg-surface/95', 'backdrop-blur-md', 'border-b', 'border-outline-variant', 'text-on-surface-variant', 'shadow-sm');
+      } else {
+        header.classList.add('bg-transparent', 'text-white');
+        header.classList.remove('bg-surface/95', 'backdrop-blur-md', 'border-b', 'border-outline-variant', 'text-on-surface-variant', 'shadow-sm');
+      }
     });
   </script>
 </body>
